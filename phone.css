@@ -1,0 +1,236 @@
+/* html,
+body {
+  overflow-x: hidden;
+} */
+/* table and ipads */
+@media only screen and (max-width: 834px) {
+  /* home section starts here */
+  .home-container {
+    width: 100vw;
+    flex-direction: column;
+  }
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-left: 0;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .info-container {
+    width: 100vw;
+    align-items: center;
+  }
+  .info-container span h3 {
+    margin-top: 31px;
+  }
+  .home-action-container {
+    margin-top: 30px;
+  }
+  #down-icon {
+    margin-bottom: -27px;
+  }
+  /* home section ends here */
+  /* about section starts here */
+  .about-container {
+    max-width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 65px;
+  }
+  .about-image-container {
+    width: 100%;
+  }
+  .about-image-container img {
+    width: 100%;
+  }
+  .about-info-container {
+    padding: 0;
+  }
+  .about-info-container p {
+    line-height: 28px;
+    font-size: 1.2rem;
+  }
+  /* about section ends here */
+
+  /* skills section starts here */
+  #skills h4 {
+    width: 100vw;
+  }
+  .skills-container {
+    width: 100%;
+  }
+
+  /* skills section ends here */
+
+  /* Portfolio section starts here */
+
+  /* .portfolio-container {
+    max-width: 100vw;
+  } */
+  /* Portfolio section ends here */
+
+  /* contact section starts here */
+
+  /* conatct section ends here */
+}
+
+/* ------------ PHONE ------------*/
+
+/* phones */
+@media only screen and (max-width: 414px) {
+  /* home section starts here */
+  #home {
+    margin-bottom: 0;
+    display: block;
+  }
+  .image-container img {
+    width: 174px;
+    margin-top: 150px;
+  }
+  .info-container span h3 {
+    font-size: 1.3rem;
+  }
+  .name-container h1 {
+    font-size: 3rem;
+    -webkit-text-stroke: 2px #fff;
+  }
+  .profession-container h2 {
+    font-size: 1.4rem;
+  }
+  .home-action-container {
+    margin-top: 0;
+  }
+  .home-action-container button {
+    font-size: 0.7rem;
+  }
+  .profession-container h2 {
+    height: auto;
+  }
+  .cursor {
+    height: 30px;
+    width: 3px;
+  }
+  .home-action-container {
+    margin-top: 40px;
+  }
+  /* home section ends here */
+
+  /* utility classes starts here */
+  .title {
+    width: 100vw;
+    height: 100px;
+  }
+  .title h1 {
+    font-size: 4.7rem;
+  }
+  .title h2 {
+    font-size: 2rem;
+  }
+  /* utility classes ends here */
+
+  /* about section starts here */
+  #about-me {
+    padding: 0;
+    margin-bottom: 0;
+    /* background-color: yellow; */
+  }
+  .about-title {
+    margin-top: 39px;
+    margin-bottom: 24px;
+  }
+  .about-container {
+    margin-top: 0;
+    padding: 0;
+  }
+  .about-image-container img {
+    width: 100vw;
+    padding: 0 35px;
+  }
+  .about-info-container {
+    padding: 0 35px;
+  }
+  .about-info-container h2 {
+    font-size: 1.5rem;
+  }
+  .about-info-column {
+    width: 100%;
+  }
+
+  /* about section ends here */
+  /* skills section starts here */
+  #skills {
+    padding-top: 0;
+  }
+  .skills-title {
+    margin-top: 63px;
+    margin-bottom: -4px;
+  }
+  .skills-container {
+    padding-top: 25px;
+  }
+  #skills h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0 36px;
+  }
+  .skill {
+    /* background-color: green; */
+    width: 100px;
+    height: 100px;
+    margin: 18px 24px;
+  }
+  .skill img {
+    width: 70px;
+    height: 70px;
+  }
+  /* skills section ends here */
+
+  /* portfolio section starts here */
+  #portfolio {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .portfolio-title {
+    margin-top: 63px;
+    margin-bottom: 14px;
+  }
+  /* .portfolio-container {
+    padding-top: 0;
+  } */
+
+   .portfolio-container .project {
+    box-shadow: rgb(149 157 165 / 20%) 0px 11px 20px;
+    margin: 0;
+    margin-top: 25px;
+  }
+  /*
+  .portfolio-container .project:last-child {
+    display: none;
+  } */
+  /* portfolio section ends here */
+
+  /* conatct form section starts here */
+  .contact-container {
+    margin-top: 0;
+  }
+  #contact {
+    padding: 0;
+  }
+  .contact-title {
+    margin-top: 63px;
+    margin-bottom: 17px;
+  }
+  #contact form {
+    width: 100vw;
+    padding: 0 16px;
+  }
+  form input,
+  form textarea {
+    margin: 10px 5px;
+  }
+  /* contact form ends here */
+}
